@@ -1,0 +1,19 @@
+Browser launch Chrome C:\\AutomationProject\\pharma2\\src\\test\\resources\\DRIVERS\\chromedriver.exe
+
+Open URL http://primusbank.qedgetech.com/
+
+Enter uName //*[@id='txtuId'] Admin
+
+Enter password //*[@id='txtPword'] Admin
+
+Click on Login Button //*[@id='login']
+
+Click on Branch //*[@src='images/Branches_but.jpg'] 
+
+Select Country //*[@id='lst_countryS'] INDIA
+
+Select State //*[@id='lst_stateS'] MAHARASTRA
+
+Select City //*[@id='lst_cityS'] MUMBAI 
+
+Click on Search //*[@id='btn_search'] 
